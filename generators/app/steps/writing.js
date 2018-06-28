@@ -24,7 +24,7 @@ module.exports = {
 
     this.npmInstall(npmTrailpacks, {
       save: true,
-      silent: true,
+      silent: false,
       loglevel: 'error',
       progress: false,
     })
