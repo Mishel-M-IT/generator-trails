@@ -7,4 +7,5 @@ module.exports = function () {
   this.options.controllerFileName = `${this.options.controllerRoot}Controller.js`
   this.options.controllerTestFileName = `${this.options.controllerRoot}Controller.test.js`
   this.options.controllerDesc = this.answers.desc.trim()
+  this.options.controllerParentClass = this.answers.parentClass.trim()
 }

@@ -1,0 +1,27 @@
+{
+  "version": "0.0.0",
+  "keywords": [
+    "trails"
+  ],
+  "main": "index.js",
+  "dependencies": {
+    "trailpack-router": "^3",
+    "trails": "^3"
+  },
+  "devDependencies": {
+    "eslint": "^3",
+    "eslint-config-trails": "^3",
+    "mocha": "^3",
+    "supertest": "^3",
+    "trailpack-repl": "^3"
+  },
+  "scripts": {
+    "test": "eslint . && mocha"
+  },
+  "engines": {
+    "node": ">= 7.6.0"
+  },
+  "eslintConfig": {
+    "extends": "trails"
+  }
+}
