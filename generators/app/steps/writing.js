@@ -30,13 +30,12 @@ module.exports = {
     })
   },
 
-  copyArchetypeFiles() {
-    console.log('    this.fs.copy(path.resolve(trailsArchetype, \'**\'), this.destinationPath())');
-    console.log( path.resolve(trailsArchetype, '**') );
-    console.log( this.destinationPath() );
+  copyArchetypeFiles() {   
     
-    this.fs.copy(path.resolve(trailsArchetype, '**'), this.destinationPath())
-    this.fs.copy(path.resolve(trailsArchetype, '**/.*'), this.destinationPath())
+    this.fs.copy(path.resolve(this.templatePath('.'), '**'), this.destinationPath())
+    this.fs.copy(path.resolve(this.templatePath('.'), '**/.*'), this.destinationPath())
+//    this.fs.copy(path.resolve(trailsArchetype, '**'), this.destinationPath())
+//    this.fs.copy(path.resolve(trailsArchetype, '**/.*'), this.destinationPath())
 
     const newMainConfig = Util.updateMainConfigFile({
       configFile: this.fs.read('config/main.js'),
