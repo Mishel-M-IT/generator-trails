@@ -31,7 +31,9 @@ module.exports = {
   },
 
   copyArchetypeFiles() {   
-    
+    console.log('ffffffffffffff');
+    console.log(this.templatePath('.'));
+    console.log(path.resolve(this.templatePath('.'), '**'));  
     this.fs.copy(path.resolve(this.templatePath('.'), '**'), this.destinationPath())
     this.fs.copy(path.resolve(this.templatePath('.'), '**/.*'), this.destinationPath())
 //    this.fs.copy(path.resolve(trailsArchetype, '**'), this.destinationPath())
