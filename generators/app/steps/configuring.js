@@ -19,8 +19,9 @@ module.exports = function () {
 
   if (orm === 'other' && this.answers['orm-engine-other']) {
     this.options.packArray.push(this.answers['orm-engine-other'])
-  }
-  else if (orm) {
+  }else if (orm === 'none'){
+    
+  }else if (orm) {
     this.options.packArray.push(`trailpack-${orm}`)
   }
 

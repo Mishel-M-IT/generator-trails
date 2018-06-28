@@ -1,12 +1,12 @@
 {
-  "name": "mishel-m-it-generator-trails",
-  "version": "3.0.2",
+  "name": "generator-trails-mmit",
+  "version": "3.1.0",
   "description": "Trails Generator forked by mishel.m.it",
-  "homepage": "https://github.com/trailsjs/generator-trails",
+  "homepage": "https://github.com/Mishel-M-IT/generator-trails",
   "author": "Trails.js Team <hello@trailsjs.io> + mishel.m.ir",
   "main": "generators/app/index.js",
   "keywords": [
-    "yeoman-generator",
+    "mishel-m-it",
     "trails",
     "trailsjs",
     "boilerplate",
@@ -17,7 +17,7 @@
     "yeoman-generator"
   ],
   "bugs": {
-    "url": "https://github.com/trailsjs/generator-trails/issues",
+    "url": "https://github.com/Mishel-M-IT/generator-trails/issues",
     "email": "bugs@trailsjs.io"
   },
   "license": "MIT",
@@ -37,11 +37,15 @@
     {
       "name": "Yann Bertrand",
       "url": "https://github.com/YannBertrand"
+    },
+    {
+      "name": "Mishel M IT",
+      "url": "https://github.com/Mishel-M-IT"
     }
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/trailsjs/generator-trails.git"
+    "url": "https://github.com/Mishel-M-IT/generator-trails.git"
   },
   "dependencies": {
     "chalk": "^2.3",
