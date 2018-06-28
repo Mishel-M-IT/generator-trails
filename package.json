@@ -1,9 +1,9 @@
 {
-  "name": "generator-trails",
+  "name": "mishel-m-it-generator-trails",
   "version": "3.0.2",
-  "description": "Trails Generator",
+  "description": "Trails Generator forked by mishel.m.it",
   "homepage": "https://github.com/trailsjs/generator-trails",
-  "author": "Trails.js Team <hello@trailsjs.io>",
+  "author": "Trails.js Team <hello@trailsjs.io> + mishel.m.ir",
   "main": "generators/app/index.js",
   "keywords": [
     "yeoman-generator",
