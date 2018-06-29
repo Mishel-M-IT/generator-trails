@@ -9,8 +9,6 @@ module.exports = function () {
     {
       type: 'input',
       when: responses => {
-        console.log('this.options');
-        console.log(this.options.resolverParent);
         return !(this.options.resolverParent !== undefined && this.options.resolverParent.length>0);
       },
       name: 'resolverParent',
