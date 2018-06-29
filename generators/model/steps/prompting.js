@@ -8,8 +8,8 @@ module.exports = function () {
     },
     {
       type: 'input',
-      name: 'parentResolver',
-      message: 'Parent Resolver',
+      name: 'resolverParent',
+      message: 'Resolver Parent',
       default: 'Resolver'
     }
   ]).then(answers => {
