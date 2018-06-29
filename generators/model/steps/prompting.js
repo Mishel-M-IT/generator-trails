@@ -8,7 +8,7 @@ module.exports = function () {
     },
     {
       type: 'input',
-      name: 'desc',
+      name: 'parentResolver',
       message: 'Parent Resolver',
       default: 'Resolver'
     }
