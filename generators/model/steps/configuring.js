@@ -5,6 +5,7 @@ module.exports = function () {
   this.options.modelFileName = `${this.options.modelName}.js`
   this.options.modelTestFileName = `${this.options.modelName}.test.js`
   this.options.modelDesc = this.answers.desc.trim()
+  this.options.resolverParent = this.options.resolverParent || this.answers.resolverParent.trim();
 
   this.options.resolverRoot = Util.capitalizeFirstLetter(this.options['modelName'])
   this.options.resolverName = `${this.options.resolverRoot}Resolver`
