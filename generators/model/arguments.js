@@ -9,8 +9,7 @@ module.exports = {
     type: String,
     required: false,
     desc: 'Resolver Parent Class',
-    banner: 'Resolver Parent Class',
-    default: 'Resolver'
+    banner: 'Resolver Parent Class'
   }
 }
 
