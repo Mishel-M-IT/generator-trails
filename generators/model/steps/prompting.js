@@ -8,6 +8,11 @@ module.exports = function () {
     },
     {
       type: 'input',
+      when: responses => {
+        console.log('this.options');
+        console.log(this.options);
+        return !this.options.resolverParent;
+      },
       name: 'resolverParent',
       message: 'Resolver Parent',
       default: 'Resolver'
