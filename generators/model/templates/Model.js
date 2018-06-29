@@ -1,4 +1,4 @@
-const <%= modelName %>Resolver = require('../resolvers/<%= modelName %>') 
+const <%= modelName %>Resolver = require('../resolvers/<%= modelName %>Resolver') 
 
 /**
  * 
